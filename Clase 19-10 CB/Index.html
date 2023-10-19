@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1>Algunos personajes iconicos de Star Wars</h1>
+        <hr>
+
+        <div class="row" id="items"></div>
+
+        <template id="template-card">
+            <div class="col-12 mb-2 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5></h5>
+                        <img src="" alt="" class="img-thumbnail my-4"></img>
+                        <button type="button" class="btn btn-dark">
+                            Like
+                        </button><span></span>
+                        <label id="like"></label>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </div>
+    
+    <script type="module" src="./Java/index.js"></script>
+    <script type="module" src="./Java/Data.js"></script>
+</body>
+
+</html>
